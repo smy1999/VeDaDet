@@ -1,7 +1,7 @@
-epoch: 300
+epoch: 70
 
 LearningRate:
-  base_lr: 0.4
+  base_lr: 0.04
   schedulers:
   - !CosineDecay
     max_epochs: 300
