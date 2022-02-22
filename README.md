@@ -1,14 +1,10 @@
 # VeDaDet
 
-------
-
 # 项目背景
 
 随着我国汽车保有量的进一步增加，街道上汽车密度逐渐增加，随之而来的汽车之间的碰撞也在增加，而大多数的车祸都是损失较小的擦碰事件，或者车辆与建筑物的擦碰。在二手车市场或汽车维修时，检测汽车损坏情况仍需要人工投入。面对日益扩张的二手车市场以及保险领域，快速确定汽车损伤情况对二手车定价和汽车定损有极大的帮助，能够大大减轻人工压力，使人工仅需要在检测有损的车中进行具体定损，从而提升效率。通过目标检测的算法，可将模型部署于移动端中，相关从业人员仅需要环绕拍照即可确定汽车损伤情况。
 
 ![introduction](https://raw.githubusercontent.com/smy1999/VeDaDet/release/2.3/images/introduction.jpeg)
-
-------
 
 # 数据集介绍
 
@@ -28,9 +24,9 @@
 
 ### 安装
 
-项目的安装参考PaddleDetection的[安装文档](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.3/docs/tutorials/INSTALL_cn.md)。
+项目的安装参考`PaddleDetection`的[安装文档](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.3/docs/tutorials/INSTALL_cn.md)。
 
-- 安装PaddlePaddle
+- 安装`PaddlePaddle`
 
 ```shell
 # CUDA10.1
@@ -40,7 +36,7 @@ python -m pip install paddlepaddle-gpu==2.2.0.post101 -f https://www.paddlepaddl
 python -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
 ```
 
-- 安装PaddleDetection
+- 安装`PaddleDetection`
 
 ```shell
 # 克隆PaddleDetection仓库
