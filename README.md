@@ -80,11 +80,3 @@ python tools/infer.py -c configs/picodet/picodet_l_640_coco.yml -o weights=weigh
 ```shell
 python tools/export_model.py -c configs/picodet/picodet_l_640_coco.yml -o weights=output/model_final.pdparams
 ```
-
-# 个人介绍
-
-中央民族大学2021级研究生 邵明钺
-
-邮箱 smy19990312@gmail.com
-
-欢迎大家反馈交流
